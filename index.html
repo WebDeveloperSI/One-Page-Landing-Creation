@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aether — Building Tomorrow's Digital Frontier</title>
+<meta name="description" content="Advanced infrastructure, intelligence, and security engineered for the next era of the web." />
+<meta property="og:title" content="Aether — Building Tomorrow's Digital Frontier" />
+<meta property="og:description" content="Advanced infrastructure, intelligence, and security engineered for the next era of the web." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Atmospheric backdrop -->
+  <div aria-hidden class="bg-aurora"></div>
+  <div aria-hidden class="bg-dots"></div>
+  <div id="cursorGlow" class="cursor-glow" aria-hidden></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <defs>
+            <linearGradient id="lg" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#7af8ff" />
+              <stop offset="1" stop-color="#7c5cff" />
+            </linearGradient>
+          </defs>
+          <circle cx="12" cy="12" r="9" stroke="url(#lg)" stroke-width="1.2" />
+          <circle cx="12" cy="12" r="3" fill="url(#lg)" />
+          <path d="M3 12h18M12 3v18" stroke="url(#lg)" stroke-width="0.6" opacity="0.5" />
+        </svg>
+        <span class="brand-text">AETHER</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#technology">Technology</a>
+        <a href="#contact">Vision</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn-ghost btn-small">Launch</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="starfield" id="starfield" aria-hidden></div>
+    <div class="hero-inner">
+      <div class="reveal eyebrow"><span>Aether Systems · v1.0</span></div>
+      <h1 class="reveal text-gradient hero-title">
+        Building Tomorrow's<br />Digital Frontier
+      </h1>
+      <p class="reveal hero-sub">
+        We design and deploy the orbital-class infrastructure that powers the
+        next generation of intelligent products — engineered for scale,
+        sealed for trust, tuned for speed.
+      </p>
+      <div class="reveal cta-row">
+        <a href="#technology" class="btn-primary">Explore
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contact" class="btn-ghost">Contact</a>
+      </div>
+
+      <div class="reveal orbital-wrap">
+        <div class="orbital">
+          <div aria-hidden class="orbital-glow"></div>
+          <svg viewBox="0 0 200 200" class="orbital-svg" aria-hidden>
+            <defs>
+              <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#ffffff" />
+                <stop offset="40%" stop-color="#7af8ff" />
+                <stop offset="100%" stop-color="#4fd1ff" stop-opacity="0" />
+              </radialGradient>
+              <linearGradient id="arcGrad" x1="0" x2="1">
+                <stop offset="0" stop-color="#7af8ff" stop-opacity="0" />
+                <stop offset="0.5" stop-color="#7af8ff" />
+                <stop offset="1" stop-color="#7c5cff" stop-opacity="0" />
+              </linearGradient>
+              <filter id="softGlow">
+                <feGaussianBlur stdDeviation="2" />
+                <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+              </filter>
+            </defs>
+            <g class="spin-60">
+              <ellipse class="ring" cx="100" cy="100" rx="90" ry="34" />
+              <ellipse class="ring ring-bright" cx="100" cy="100" rx="90" ry="34" stroke-dasharray="2 8" />
+            </g>
+            <g class="spin-40-rev">
+              <ellipse class="ring" cx="100" cy="100" rx="70" ry="70" />
+              <circle r="2.4" fill="#7af8ff" filter="url(#softGlow)">
+                <animateMotion dur="14s" repeatCount="indefinite" path="M 30,100 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0" />
+              </circle>
+            </g>
+            <g class="spin-25">
+              <ellipse class="ring ring-bright" cx="100" cy="100" rx="48" ry="48" stroke-dasharray="1 4" />
+            </g>
+            <path class="arc dash-a" d="M 10 100 Q 100 -10 190 100" />
+            <path class="arc dash-b" d="M 10 100 Q 100 210 190 100" />
+            <circle cx="40" cy="50" r="1.2" fill="#e8edf7" opacity="0.7"/>
+            <circle cx="160" cy="60" r="1.2" fill="#e8edf7" opacity="0.7"/>
+            <circle cx="30" cy="150" r="1.2" fill="#e8edf7" opacity="0.7"/>
+            <circle cx="170" cy="140" r="1.2" fill="#e8edf7" opacity="0.7"/>
+            <circle cx="100" cy="20" r="1.2" fill="#e8edf7" opacity="0.7"/>
+            <circle cx="100" cy="180" r="1.2" fill="#e8edf7" opacity="0.7"/>
+            <circle class="core" cx="100" cy="100" r="34" />
+            <circle cx="100" cy="100" r="6" fill="#fff" filter="url(#softGlow)" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGY -->
+  <section id="technology" class="tech">
+    <div class="tech-inner">
+      <div class="reveal tech-head">
+        <span class="eyebrow">Capabilities</span>
+        <h2 class="text-gradient">Three systems. One frontier.</h2>
+        <p>Modular by design, unified in operation — a stack built to evolve with your mission.</p>
+      </div>
+      <div class="cards">
+        <article class="reveal glass card">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M3 7l9-4 9 4-9 4-9-4z" stroke="#7af8ff" stroke-width="1.4" stroke-linejoin="round"/>
+              <path d="M3 12l9 4 9-4M3 17l9 4 9-4" stroke="#4fd1ff" stroke-width="1.4" stroke-linejoin="round" opacity="0.7"/>
+            </svg>
+          </div>
+          <h3>Infrastructure</h3>
+          <p>Orbital-grade compute meshes that auto-balance across regions with sub-millisecond drift.</p>
+          <div class="card-more">Learn more
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </article>
+        <article class="reveal glass card">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M12 3l8 3v6c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V6l8-3z" stroke="#7c5cff" stroke-width="1.4" stroke-linejoin="round"/>
+              <path d="M9 12l2 2 4-4" stroke="#7af8ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Security</h3>
+          <p>Zero-trust architecture sealed end-to-end with post-quantum cryptography by default.</p>
+          <div class="card-more">Learn more
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </article>
+        <article class="reveal glass card">
+          <div class="card-glow"></div>
+          <div class="card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="3" stroke="#7af8ff" stroke-width="1.4"/>
+              <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" stroke="#4fd1ff" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Intelligence</h3>
+          <p>Adaptive reasoning models trained on sovereign data, deployed at the edge of your network.</p>
+          <div class="card-more">Learn more
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section class="vision">
+    <div class="vision-floor" aria-hidden>
+      <div class="grid-floor"></div>
+      <div class="horizon-line"></div>
+      <div class="vision-fade"></div>
+    </div>
+    <div class="vision-inner">
+      <span class="reveal eyebrow">Vision · 2030</span>
+      <h2 class="reveal text-gradient vision-title">
+        Engineered for the<br />
+        <em class="vision-accent">era after next.</em>
+      </h2>
+      <p class="reveal vision-sub">
+        Every system we ship is a step toward a horizon that hasn't been
+        drawn yet — calm, precise, and built to last decades.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="contact-inner">
+      <div class="reveal glass contact-card">
+        <div class="contact-glow" aria-hidden></div>
+        <span class="eyebrow">Begin transmission</span>
+        <h2 class="text-gradient contact-title">Ready for the Next Era?</h2>
+        <p class="contact-sub">Tell us where you're going. We'll help engineer the path.</p>
+        <form class="contact-form" onsubmit="event.preventDefault();">
+          <input type="email" required placeholder="you@frontier.io" />
+          <button type="submit" class="btn-primary">Contact
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <circle cx="12" cy="12" r="9" stroke="url(#lg)" stroke-width="1.2" />
+          <circle cx="12" cy="12" r="3" fill="url(#lg)" />
+        </svg>
+        <span>Aether Systems · MMXXVI</span>
+      </div>
+      <div>Engineered on the frontier.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
